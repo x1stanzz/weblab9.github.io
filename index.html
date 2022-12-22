@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex & Grid</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+    </header>
+    <main>
+        <section>
+            <input type="radio" name="filter" id="cake">
+            <input type="radio" name="filter" id="pie">
+            <input type="radio" name="filter" id="ice-cream">
+            <input type="radio" name="filter" id="smoothie">
+            <input type="radio" name="filter" id="all" checked>
+            <div class="mobile-disp">
+                <img src="img/napoleon.jpg" alt="napoleon">
+                <img src="img/eskimo.jpg" alt="eskimo">
+                <img src="img/medovik.jpg" alt="medovik">
+            </div>
+            <div class="block cake">
+                <div class="top">
+                    <img class="cake" src="img/napoleon.jpg" alt="napoleon">
+                    <p>Торт: <span class="type">Наполеон</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 262 кКал</p>
+                </div>
+            </div>
+            <div class="block ice-cream">
+                <div class="top">
+                    <img class="ice-cream" src="img/eskimo.jpg" alt="eskimo">
+                    <p>Морозиво: <span class="type">Ескімо</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 401 кКал</p>
+                </div>
+            </div>
+            <div class="block cake"><img class="mobile-disp" src="img/medovik.jpg" alt="medovik">
+                <div class="top">
+                    <img class="cake" src="img/medovik.jpg" alt="medovik">
+                    <p>Торт: <span class="type">Медовик</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 292 кКал</p>
+                </div>
+            </div>
+            <div class="block pie">
+                <div class="top">
+                    <img class="pie" src="img/sharlotka.jpg" alt="sharlotka">
+                    <p>Пиріг: <span class="type">Шарлотка</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 180 кКал</p>
+                </div>
+            </div>
+            <div class="block smoothie">
+                <div class="top">
+                    <img class="smothie" src="img/smoothie.jpg" alt="smoothie">
+                    <p>Смузі: <span class="type">Фруктовий</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 53 кКал</p>
+                </div>
+            </div>
+            <div class="block pie">
+                <div class="top">
+                    <img class="pie" src="img/brownie.jpg" alt="brownie">
+                    <p>Пиріг: <span class="type">Брауні</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 439 кКал</p>
+                </div>
+            </div>
+            <div class="block cake">
+                <div class="top">
+                    <img class="cake" src="img/cheesecake.jpg" alt="cheesecake">
+                    <p>Торт: <span class="type">Чизкейк</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 261 кКал</p>
+                </div>
+            </div>
+            <div class="block ice-cream">
+                <div class="top">
+                    <img class="ice-cream" src="img/banana.jpg" alt="banana">
+                    <p>Морозиво: <span class="type">Бананове</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 100 кКал</p>
+                </div>
+            </div>
+            <div class="block cake">
+                <div class="top">
+                    <img class="cake" src="img/caramel.jpg" alt="caramel">
+                    <p>Торт: <span class="type">Карамельний</span></p>
+                </div>
+                <div class="bottom">
+                    <p>Калорій у порції: 356 кКал</p>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div class="calories">
+                <p>Калорій у порції</p>
+                <input type="range" name="calories" id="calories" min="0" max="500">
+                <p>Від 0 до 500 кКал</p>
+            </div>
+            <ul>
+                <label for="cake"><li>Торти</li></label>
+                <label for="pie"><li>Пироги</li></label>
+                <label for="ice-cream"><li>Морозиво</li></label>
+                <label for="smoothie"><li>Смузі</li></label>
+                <label for="all"><li>Скинути фільтри</li></label>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Контакти: <a href="">deserts@gmail.com</a></p>
+        <p>&#xA9;2022</p>
+    </footer>
+</body>
+</html>
